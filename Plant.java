@@ -18,4 +18,35 @@ public class Plant {
     private Integer wateringFrequency;
     @Column(name"HAS_FRUIT")
     private Boolean hasFruit;
+    
+    public Integer getId() {
+        return this.id;
+    }
+    public void setId() {
+        this.id = id;
+    }
+     public String getName() {
+        return this.name;
+    }
+    public void setName() {
+        this.name = name;
+    }
+    public Integer getQuantity() {
+        return this.quantity;
+    }
+    public void setQuantity() {
+        this.quantity = quantity;
+    }    
+    public Integer getWateringFrequency() {
+        return this.wateringFrequency;
+    }
+    public void setWateringFrequency() {
+        this.wateringFrequency = wateringFrequency;
+    }  
+    public boolean getHasFruit() {
+        return this.hasFruit;
+    }
+    public void setHasFruit() {
+        this.hasFruit = hasFruit;
+    }    
 }  
